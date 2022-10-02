@@ -1,0 +1,6 @@
+Create a new project for Django
+
+1. Install django in your virtual environment. run: pipenv install django
+2. Launch subshell in virtual environment. run: pipenv shell
+3. Start project in directory. run: django-admin startproject [Directory Name] .
+4. Run server by using python command. run: python manage.py runserver
