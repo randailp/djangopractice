@@ -6,6 +6,7 @@ from django.http import HttpResponse
 # request handler
 # action
 # not like android views (user don't see this)
+# kind of like a service
 
 def say_hello(request):
-    return HttpResponse("Hello world!")
+    return render(request, 'hello.html', {'name': 'Randy'})
